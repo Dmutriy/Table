@@ -3,17 +3,33 @@ table {
   width: 100%;
   font-size: 14px;
 }
-table,
-td,
 th {
-  border: 1px solid #595959;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
 }
-td,
-th {
-  padding: 3px;
-  width: 30px;
-  height: 25px;
+tr {
+  background-color: #fff;
 }
-th {
-  background-color: #7accee !important;
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+td input {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+td:first-child {
+  text-align: center;
 }
